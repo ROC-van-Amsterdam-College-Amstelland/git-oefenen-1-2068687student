@@ -1,0 +1,15 @@
+.container {    
+
+    box-shadow: 1px 1px 6px darkgreen;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin: 30px;
+}
+
+.littleColorBox {
+
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!-- DOCTYPE staat altijd boven aan de pagina -->
+<html>
+<!-- hier start je html tag -->
+
+<head>
+    <!-- hier start je head tag -->
+
+    <title>Variabelen en Data Type</title>
+    <!-- de titel komt altijd in je head tag -->
+    <link ref="stylesheet" type="text/css" href="style.css">
+    <!-- een link naar bijv. css komt altijd in je head tag -->
+    <script src="script.js"></script>
+    <!-- een link naar bijv. javascript komt altijd in je head tag -->
+</head>
+<!-- hier eindigt je head tag -->
+
+<body>
+    <!-- hier start je body tag -->
+    <script>
+        function alertValue(mijnEersteVariabele) {
+            if (typeof(mijnEersteVariabele) == "number") {
+                if (mijnEersteVariabele == Math.floor(mijnEersteVariabele)) {
+                    alert('mijnEersteVariabele waarde= ' + mijnEersteVariabele + '\nmijnEersteVariabele data type = Integer');
+                } else {
+                    alert('mijnEersteVariabele waarde= ' + mijnEersteVariabele + '\nmijnEersteVariabele data type = float');
+                }
+            } else
+
+                alert('mijnEersteVariabele waarde= ' + mijnEersteVariabele + '\nmijnEersteVariabele data type= ' + typeof(mijnEersteVariabele));
+
+        }
+    </script>
+    <button onclick="alertValue(mijnEersteVariabele);">
+        klik hier!
+    </button>
+</body>
+<!-- hier eindigt je body tag -->
+
+</html>
+<!-- hier eindigt je html tag -->

@@ -1,0 +1,10 @@
+#blok1, #blok2{
+    border: 1px solid black;
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+}
+
+#blok1 {
+    background-color: cyan;
+}

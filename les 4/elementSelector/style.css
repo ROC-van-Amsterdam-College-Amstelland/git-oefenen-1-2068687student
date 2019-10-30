@@ -1,0 +1,11 @@
+header, main, footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px dashed royalblue;
+    text-transform: capitalize;
+    color: lightseagreen;
+    height: 80px;
+    width: 800px;
+    margin: 5px;
+
+
+}

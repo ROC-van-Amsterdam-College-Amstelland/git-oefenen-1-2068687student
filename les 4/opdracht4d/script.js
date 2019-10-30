@@ -1,0 +1,2 @@
+var mijnEersteVariabele;
+mijnEersteVariabele = false;

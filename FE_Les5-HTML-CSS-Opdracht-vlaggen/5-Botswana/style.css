@@ -1,0 +1,57 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkantblauw{
+    width: 900px;
+    height: 250px;
+    background-color: lightskyblue;
+    display: inline-block;
+
+}
+
+#bovenkantwit{
+    width: 900px;
+    height: 20px;   
+    background-color: white;
+    display: inline-block;
+
+}
+
+#midden{
+    width: 900px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+
+}
+
+#onderkantwit{
+    width: 900px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+
+}
+
+#onderkantblauw{
+    width: 900px;
+    height: 250px;
+    background-color: lightskyblue;
+    display: inline-block;
+
+}
+
+
+
+

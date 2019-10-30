@@ -1,0 +1,27 @@
+#getal1, #getal2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#output {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 5px;
+    left: 100px;
+}
+
+button {
+    position: relative;
+    top: 10px;
+}
+
+body {
+
+    background-color: aquamarine;
+}

@@ -1,0 +1,40 @@
+#box1, #box2, #box3 {
+
+    border: 10px solid goldenrod;
+    display: inline-block;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.src {
+
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+
+    font-size: 60px;
+    color: red;
+    text-decoration: underline;
+}
+
+button {
+
+    width: 500px;
+    height: 500px;
+    font-size: 60px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}  
+
+
+
+
+
