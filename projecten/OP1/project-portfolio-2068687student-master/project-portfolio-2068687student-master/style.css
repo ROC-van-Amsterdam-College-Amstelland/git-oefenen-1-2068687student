@@ -103,6 +103,12 @@ p{
   height: 250px;
 }
 
+#foto2{
+  border: 2px solid black;
+  width: 200px;
+  height: 250px;
+}
+
 #tekstvlag1{
   border: 1px solid black;
   width: 250px;
@@ -112,6 +118,16 @@ p{
 #tekstfoto1{
   border: 1px solid black;
   width: 250px;
-  margin-left: 42%;
+  margin-left:10%;
+}
+
+#tekstfoto2{
+  border: 1px solid black;
+  width: 202px;
+  margin-left:133px;
+}
+
+#toelichting {
+  display: flex;
 }
 
