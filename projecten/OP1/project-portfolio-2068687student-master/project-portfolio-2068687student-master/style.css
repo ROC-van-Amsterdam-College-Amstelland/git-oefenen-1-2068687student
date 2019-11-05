@@ -17,6 +17,7 @@ ul {
   color: white;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
   }
   
   li a:hover{
@@ -27,20 +28,25 @@ ul {
   background-color:black;
   }
 
+  #telefoon{
+    text-decoration: underline;
+  }
+
   h2{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: underline;
   }
 
 #logo {
   width: 40px;
-  height: 40px;
+  height: 38px;
   margin-bottom: -46px;
   margin-left: 10px;
 }
 
-#profieltekst{
+#profieltekst1, #profieltekst2{
   width: 725px; 
   height: 50px;
   margin-left: 30%;
@@ -109,6 +115,11 @@ p{
   height: 250px;
 }
 
+#tekstselfie{
+  margin-left:-79%;
+  color: red;
+  text-decoration: underline;
+}
 #tekstvlag1{
   border: 1px solid black;
   width: 250px;
