@@ -1,0 +1,117 @@
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cyan;
+  }
+  
+  li {
+  float: left;
+  }
+  
+  #buttons1, #buttons2, #buttons3, #buttons4{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  }
+  
+  li a:hover{
+  background-color: black;
+  }
+  
+  .active {
+  background-color:black;
+  }
+
+  h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+#logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -46px;
+  margin-left: 10px;
+}
+
+#profieltekst{
+  width: 725px; 
+  height: 50px;
+  margin-left: 30%;
+
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#adjanifoto2{
+  display: none;
+}
+
+#selfie3{
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 180px;
+  height: 180px;
+
+}
+
+#selfie2 {
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+  display:none;
+}
+
+#selfie1 {
+  border: 2px solid black;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+#vlag1{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 15%;
+}
+
+#foto1{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
+}
+
+#foto10{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+#tekstvlag1{
+  border: 1px solid black;
+  width: 250px;
+  margin-left: 15%;
+}
+
+#tekstfoto1{
+  border: 1px solid black;
+  width: 250px;
+  margin-left: 42%;
+}
+
