@@ -6,7 +6,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: cyan;
-  background: transparent 50%;
   }
   
 li {
@@ -45,7 +44,6 @@ h2{
   height: 38px;
   margin-bottom: -46px;
   margin-left: 10px;
-  border: 2px solid black;
 }
 
 #profieltekst1, #profieltekst2{
@@ -119,45 +117,40 @@ p{
 
 #tekstselfie{
   margin-left:-79%;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 #tekstvlag1{
   border: 1px solid black;
   width: 250px;
   margin-left: 15%;
-  color: white;
+  color: black;
 }
 
 #tekstfoto1{
   border: 1px solid black;
   width: 250px;
   margin-left:10%;
-  color: white;
+  color: black;
 }
 
 #tekstfoto2{
   border: 1px solid black;
   width: 202px;
   margin-left:139px;
-  color: white;
+  color: black;
 }
 
 #toelichting{
   display: flex;
 }
 
-body{
-background-image: url('../project-portfolio-2068687student-master/images/clouds.jpg');
-background-size: 100%;
-margin: 0%;
-}
 
 #hobbys{
   display: flex;
   flex-direction:column;
   margin-left: 47%;
-  color: white;
+  color: black;
 }
 
 #tekst6{
@@ -168,9 +161,8 @@ margin: 0%;
   display: flex;
   flex-direction:column;
   margin-left: 47%;
-  color: white;
+  color: black;
 }
-
 
 
 body{
@@ -204,4 +196,10 @@ body{
 #button5{
   margin-left: 46%;
   margin-top: 7%;
+}
+
+#vandaag{
+  margin-top: 10%;
+  margin-left: 30%;
+  text-decoration: underline;
 }
