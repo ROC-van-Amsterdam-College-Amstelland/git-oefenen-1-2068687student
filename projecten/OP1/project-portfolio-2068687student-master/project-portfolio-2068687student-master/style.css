@@ -147,7 +147,6 @@ p{
   display: flex;
 }
 
-
 body{
 background-image: url('../project-portfolio-2068687student-master/images/clouds.jpg');
 background-size: 100%;
@@ -173,9 +172,9 @@ margin: 0%;
 }
 
 
+
 body{
 	min-width: 100%;
-	text-align: center;
 }
 #all{
 	width:100%;
@@ -186,16 +185,23 @@ body{
 	height:5px;
 	width:50%;
 	background:#0000ee;
-	float:left;
+  float:left;
+
 }
 #dislikes{
 	height:5px;
 	width:50%;
 	background:#ccc;
-	float:right;
+  float:right;
+
 }
 
 #bar{
 	margin:0 auto;
 	width:60%;
+}
+
+#button5{
+  margin-left: 46%;
+  margin-top: 7%;
 }
