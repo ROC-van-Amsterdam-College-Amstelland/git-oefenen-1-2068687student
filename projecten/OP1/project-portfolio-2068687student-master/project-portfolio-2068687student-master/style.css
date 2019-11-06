@@ -6,13 +6,14 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: cyan;
+  background: transparent 50%;
   }
   
-  li {
+li {
   float: left;
   }
   
-  #buttons1, #buttons2, #buttons3, #buttons4{
+#buttons1, #buttons2, #buttons3, #buttons4{
   display: block;
   color: white;
   text-align: center;
@@ -20,19 +21,19 @@ ul {
   text-decoration: none;
   }
   
-  li a:hover{
+li a:hover{
   background-color: black;
   }
   
-  .active {
+.active {
   background-color:black;
   }
 
-  #telefoon{
+#telefoon{
     text-decoration: underline;
   }
 
-  h2{
+h2{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,13 +45,13 @@ ul {
   height: 38px;
   margin-bottom: -46px;
   margin-left: 10px;
+  border: 2px solid black;
 }
 
 #profieltekst1, #profieltekst2{
   width: 725px; 
   height: 50px;
   margin-left: 30%;
-
 }
 
 p{
@@ -113,32 +114,88 @@ p{
   border: 2px solid black;
   width: 200px;
   height: 250px;
+  margin-left: 5px;
 }
 
 #tekstselfie{
   margin-left:-79%;
-  color: red;
+  color: white;
   text-decoration: underline;
 }
 #tekstvlag1{
   border: 1px solid black;
   width: 250px;
   margin-left: 15%;
+  color: white;
 }
 
 #tekstfoto1{
   border: 1px solid black;
   width: 250px;
   margin-left:10%;
+  color: white;
 }
 
 #tekstfoto2{
   border: 1px solid black;
   width: 202px;
-  margin-left:133px;
+  margin-left:139px;
+  color: white;
 }
 
-#toelichting {
+#toelichting{
   display: flex;
 }
 
+
+body{
+background-image: url('../project-portfolio-2068687student-master/images/clouds.jpg');
+background-size: 100%;
+margin: 0%;
+}
+
+#hobbys{
+  display: flex;
+  flex-direction:column;
+  margin-left: 47%;
+  color: white;
+}
+
+#tekst6{
+  margin-top: 5%;
+}
+
+#vaardigheden{
+  display: flex;
+  flex-direction:column;
+  margin-left: 47%;
+  color: white;
+}
+
+
+body{
+	min-width: 100%;
+	text-align: center;
+}
+#all{
+	width:100%;
+	margin: 0 auto; /*centers the website*/
+}
+
+#likes{
+	height:5px;
+	width:50%;
+	background:#0000ee;
+	float:left;
+}
+#dislikes{
+	height:5px;
+	width:50%;
+	background:#ccc;
+	float:right;
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
+}
