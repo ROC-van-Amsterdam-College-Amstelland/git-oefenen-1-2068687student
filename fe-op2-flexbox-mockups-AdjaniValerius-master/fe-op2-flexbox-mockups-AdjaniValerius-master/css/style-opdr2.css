@@ -1,5 +1,24 @@
 html, body{
     height: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: green;   
+    border: 2px solid black;
+}
+
+main{
+    border: 2px solid black;
+    height: 100%;
+    width: 75%;
 }
 
 .menu-button{
@@ -11,10 +30,19 @@ html, body{
     flex-direction: column;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: green;
-    
+.knoppen {
+    width: 200px;
+    height: 100px;
+    background: white;
+    margin: 30px;
+    border: 2px solid black;
 }
+
+.tekst{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    background: purple;
+}
+
