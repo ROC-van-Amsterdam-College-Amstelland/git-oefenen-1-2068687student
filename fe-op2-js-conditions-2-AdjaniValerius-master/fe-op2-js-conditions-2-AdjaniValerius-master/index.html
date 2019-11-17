@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            /* Dit is de parent van alle blok-divs */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .blok {
+            width: 200px;
+            height: 200px;
+            border: 3px;
+        }
+
+        .paars {
+            background-color: #9a0ee8;
+            border-style: dashed;
+        }
+
+        .rood {
+            background-color: #e80b0b;
+            border-style: dotted;
+        }
+
+        .geel {
+            background-color: #ebf41b;
+            border-style: ridge;
+        }
+
+        .groen {
+            background-color: #0eda48;
+            border-style: groove;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="blok paars" onclick="colorPick(this)"></div>
+        <div class="blok rood" onclick="colorPick(this)"></div>
+        <div class="blok geel" onclick="colorPick(this)"></div>
+        <div class="blok groen" onclick="colorPick(this)"></div>
+    </div>
+    <div>Gekozen border: <span id="cssAttribuut">Nog niks gekozen</span></div>
+
+    <script src="students.js"></script>
+</body>
+
+</html>
