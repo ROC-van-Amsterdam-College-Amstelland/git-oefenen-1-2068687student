@@ -1,48 +1,63 @@
 html, body{
     height: 100%;
-    padding: 0;
-    margin: 0;
-    left: 0;
-    top: 0;
+    width: 100%;
+    margin: 0%;
+    display:flex;
 }
 
-aside {
+nav{
+    height: 40%;
+    width: 100%;
+    margin: 0%;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
     height: 100%;
-    background-color: green;   
-    border: 2px solid black;
+    width: 10%;
 }
 
 main{
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around; 
+    width: 100%;
     height: 100%;
-    width: 75%;
+    background-color: orange;
 }
 
 .menu-button{
+    display: flex;
     width: 100px;
     height: 50px;
-    background-color: black;
-    margin: 30px;
+    background-color: white;
+}
+
+#item1{
     display: flex;
-    flex-direction: column;
+    height: 150px;
+    width: 70%;
+    background-color: blueviolet;
 }
 
-.knoppen {
-    width: 200px;
-    height: 100px;
-    background: white;
-    margin: 30px;
-    border: 2px solid black;
-}
-
-.tekst{
-    align-items: center;
+#item2{
     display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
-    background: purple;
+    height: 150px;
+    width: 70%;
+    background-color: blueviolet;
 }
 
+#item3{
+    display: flex;
+    height: 150px;
+    width: 70%;
+    background-color: blueviolet;
+}
